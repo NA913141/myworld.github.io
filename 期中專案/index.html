@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume - Feng Yu Chen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aa.css"> 
+</head>
+<body>
+
+  <!-- 音樂圖示與 BGM -->
+  <div id="music-icon">🎵</div>
+  <audio id="bgm" loop autoplay>
+    <source src="music/洋楽RBちょっぴりダークで痺れる洋楽プレイリストDeep Bass Chill Vibes Relax Study.mp3" type="audio/mpeg">
+  </audio>
+
+  <header class="resume-header">
+    <div class="header-container">
+      <h1>RESUME</h1>
+      <nav class="navbar" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#software">Software</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  <main class="container" role="main">
+    <div class="left-column">
+      <div class="name-section">
+        <div class="name-ch">馮郁宸</div>
+        <div class="name-en">Feng Yu Chen</div>
+      </div>
+
+      <!-- About -->
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="section-title" id="about-title">About Me</div>
+        <div class="about-content">
+          <div class="about-item">🎂 Birthday: 03 / 01</div>
+          <div class="about-item">📍 From: Taipei, Taiwan</div>
+          <div class="about-item">
+            💬 Slogan:
+            <div class="slogan-en">“What's in a name? That which we call a rose by any other word would smell as sweet.”</div>
+            <div class="slogan-ch">為什麼人們這麼重視東西的「名稱」，玫瑰就算是換了名稱同樣是花氣薰人。</div>
+          </div>
+          <div class="about-item">🧩 Summary: I am an information management student who enjoys applying AI & VR in learning. I like turning concepts into practical small projects and making learning more fun.</div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills" aria-labelledby="skills-title" style="margin-top:16px">
+        <div class="section-title" id="skills-title">Skills</div>
+
+        <div id="skills-list">
+          <div class="skill-item">
+            <div class="skill-label">HTML</div>
+            <div class="skill-bar"><div class="skill-fill" data-skill="html" style="width:90%"></div></div>
+            <input class="skill-input" type="range" min="0" max="100" value="90" data-target="html">
+            <div class="skill-value">50%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label">CSS</div>
+            <div class="skill-bar"><div class="skill-fill" data-skill="css" style="width:85%"></div></div>
+            <input class="skill-input" type="range" min="0" max="100" value="85" data-target="css">
+            <div class="skill-value">50%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label">JavaScript</div>
+            <div class="skill-bar"><div class="skill-fill" data-skill="js" style="width:70%"></div></div>
+            <input class="skill-input" type="range" min="0" max="100" value="70" data-target="js">
+            <div class="skill-value">10%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label">Python</div>
+            <div class="skill-bar"><div class="skill-fill" data-skill="py" style="width:60%"></div></div>
+            <input class="skill-input" type="range" min="0" max="100" value="60" data-target="py">
+            <div class="skill-value">70%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label">SQL</div>
+            <div class="skill-bar"><div class="skill-fill" data-skill="sql" style="width:50%"></div></div>
+            <input class="skill-input" type="range" min="0" max="100" value="50" data-target="sql">
+            <div class="skill-value">10%</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacts -->
+      <section class="section" id="contact" aria-labelledby="contact-title" style="margin-top:16px">
+        <div class="section-title" id="contact-title">Contacts</div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <a href="tel:+886912345678" class="contact-text">+886 912-345-678</a>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <a href="mailto:ppemail@example.com" class="contact-text">ppemail@example.com</a>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5z" stroke="#333" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 8.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7z" stroke="#333" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.5 6.5h.01" stroke="#333" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <a href="https://www.instagram.com/my_instagram_id" target="_blank" class="contact-text">@my_instagram_id</a>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="right-column">
+      <div class="profile-circle-container">
+        <a href="image/226379_1.jpg" target="_blank">
+          <img src="image/226379_1.jpg" alt="Profile Photo" class="profile-img">
+        </a>
+      </div>
+
+      <!-- Education -->
+      <section class="section" id="education" aria-labelledby="education-title">
+        <div class="section-title" id="education-title">Education</div>
+        <div class="education-grid">
+          <div class="education-item">
+            <span class="edu-en">Taipei Municipal Yu Cheng Senior High School</span>
+          </div>
+          <div class="education-item">
+            2024 ~ 中原大學 資訊管理學系<br>
+            <span class="edu-en">Chung Yuan Christian University Department of Information Management</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="section" id="experience" aria-labelledby="experience-title" style="margin-top:16px">
+        <div class="section-title" id="experience-title">Experience</div>
+
+        <div class="experience-carousel" aria-live="polite">
+          <div class="card active" data-index="0">
+            <a href="image/226029_1.jpg" target="_blank">
+              <img src="image/226029_1.jpg" alt="Experience 1">
+            </a>
+            <p>高二開始我擔任藝術鑑賞社社長，我負責班上基礎的點名、維持紀律和書面的撰寫社團活動紀錄，並與社團導師協作討論展覽團體出遊地點。此經驗培養了我在活動規劃、團隊領導與文書整理上的能力，並訓練我在時間與資源有限的情況下完成觀課紀錄，為往後的溝通與管理奠定基礎。</p>
+          </div>
+          <div class="card" data-index="1">
+            <a href="image/226016_1.jpg" target="_blank">
+              <img src="image/226016_1.jpg" alt="Experience 2">
+            </a>
+            <p>高二我獲選為班級優良學生，展現我在學習態度、紀律與自我要求上的高度責任感。我在課業表現穩定的同時，主動承擔班級任務，展現了團隊意識與自主的能力，也強化了我對自我成長的持續追求。</p>            
+          </div>
+          <div class="card" data-index="2">
+            <a href="image/226014_1.jpg" target="_blank">
+              <img src="image/226014_1.jpg" alt="Experience 3">
+            </a>
+            <p>我以校長獎榮譽畢業，這象徵我在學業成績與品格發展上均表現優異。我在求學過程中培養了持續學習與自我挑戰的精神，並能在壓力下保持效率與品質。這段經歷讓我更確立了未來在專業領域持續精進的決心。</p>
+          </div>
+
+          <div class="exp-controls" aria-hidden="true">
+            <button class="prev" title="Previous">←</button>
+            <button class="next" title="Next">→</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Software Mastery -->
+      <section class="section" id="software" aria-labelledby="software-title" style="margin-top:16px">
+        <div class="section-title" id="software-title">Software Mastery</div>
+
+        <div class="software-item">
+          <div class="circle-progress" data-percent="90" style="--p:90">90%</div>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+              <div style="font-weight:700">Photoshop</div>
+              <div class="software-control">
+                <input type="range" min="0" max="100" value="90" data-target="sw-ps">
+              </div>
+            </div>
+            <div class="software-progress"><div style="width:90%" data-bar="sw-ps"></div></div>
+          </div>
+        </div>
+
+        <div class="software-item">
+          <div class="circle-progress" data-percent="75" style="--p:75">75%</div>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+              <div style="font-weight:700">Figma</div>
+              <div class="software-control">
+                <input type="range" min="0" max="100" value="75" data-target="sw-fig">
+              </div>
+            </div>
+            <div class="software-progress"><div style="width:75%" data-bar="sw-fig"></div></div>
+          </div>
+        </div>
+
+        <div class="software-item">
+          <div class="circle-progress" data-percent="70" style="--p:70">70%</div>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+              <div style="font-weight:700">Excel</div>
+              <div class="software-control">
+                <input type="range" min="0" max="100" value="70" data-target="sw-xl">
+              </div>
+            </div>
+            <div class="software-progress"><div style="width:70%" data-bar="sw-xl"></div></div>
+          </div>
+        </div>
+
+        <div class="software-item">
+          <div class="circle-progress" data-percent="100" style="--p:100">100%</div>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+              <div style="font-weight:700">Canva</div>
+              <div class="software-control">
+                <input type="range" min="0" max="100" value="100" data-target="sw-cv">
+              </div>
+            </div>
+            <div class="software-progress"><div style="width:100%" data-bar="sw-cv"></div></div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>下面的區域以後再來探索吧~~~</p>
+    <a href="image/gcudpoj7vz561.webp" target="_blank">
+      <img src="image/gcudpoj7vz561.webp" alt="footer圖片" width="150">
+    </a>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top">⬆</button>
+
+  <script src="aa.js"></script>
+</body>
+</html>
